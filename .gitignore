@@ -1,0 +1,28 @@
+# Datasets (re-download from Roboflow)
+football-players-detection/
+football-players-detection-relabeled/
+Detect Players/
+
+# Videos
+input_videos/
+output/
+*.mp4
+*.avi
+*.mov
+
+# Exported model formats (rebuild from best.pt)
+*_ncnn_model/
+*_openvino_model/
+*_saved_model/
+*.onnx
+*.engine
+*.torchscript
+*.mlpackage/
+
+# Pretrained base weights downloaded by Ultralytics
+yolo26*.pt
+
+# Python and OS clutter
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

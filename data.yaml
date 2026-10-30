@@ -1,0 +1,12 @@
+train:
+  - football-players-detection-relabeled/train/images
+  - "Detect Players/train/images"
+val:
+  - football-players-detection-relabeled/valid/images
+  - "Detect Players/valid/images"
+test:
+  - football-players-detection-relabeled/test/images
+  - "Detect Players/test/images"
+
+nc: 3
+names: ['Ball', 'Player', 'Referee']
